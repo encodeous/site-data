@@ -2,7 +2,7 @@
     "SiteName": "Adam's site",
     "NavbarText": "Adam Chen",
     "NavbarItems": {
-        "Home": "",
+        "Home": "/",
         "Privacy": "/privacy",
         "Projects": "/projects"
     }
