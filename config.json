@@ -1,9 +1,34 @@
 {
     "SiteName": "Adam's site",
     "NavbarText": "Adam Chen",
-    "NavbarItems": {
-        "Home": "/",
-        "Projects": "/projects",
-        "Privacy": "/privacy"
-    }
+    "NavbarItems": [
+        {
+            "Name": "Home",
+            "Url": "/",
+            "Dropdowns": [
+                {
+                    "Name": "Home 1",
+                    "Url": "/home1"
+                }
+            ]
+        },
+        {
+            "Name": "Projects",
+            "Url": "/projects",
+            "Dropdowns": [
+                {
+                    "Name": "Project 1",
+                    "Url": "/project1"
+                },
+                {
+                    "Name": "Project 2",
+                    "Url": "/project2"
+                }
+            ]
+        },
+        {
+            "Name": "Privacy",
+            "Url": "/privacy"
+        }
+    ]
 }
