@@ -1,6 +1,6 @@
 {
     "SiteName": "Adam's site",
-    "NavBarText": "Adam Chen",
+    "NavbarText": "Adam Chen",
     "NavbarItems": {
         "Home": "",
         "Privacy": "/privacy",
