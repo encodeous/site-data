@@ -3,7 +3,7 @@
     "NavbarText": "Adam Chen",
     "NavbarItems": {
         "Home": "/",
-        "Privacy": "/privacy",
-        "Projects": "/projects"
+        "Projects": "/projects",
+        "Privacy": "/privacy"
     }
 }
