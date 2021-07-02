@@ -4,7 +4,6 @@
     "NavbarItems": [
         {
             "Name": "Home",
-            "Url": "/",
             "Dropdowns": [
                 {
                     "Name": "Home 1",
@@ -14,7 +13,6 @@
         },
         {
             "Name": "Projects",
-            "Url": "/projects",
             "Dropdowns": [
                 {
                     "Name": "Project 1",
