@@ -27,6 +27,10 @@
         {
             "Name": "Privacy",
             "Url": "/privacy"
+        },
+        {
+            "Name": "Markdown Renderer",
+            "Url": "/markdownrender"
         }
     ]
 }
