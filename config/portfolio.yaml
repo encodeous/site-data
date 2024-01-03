@@ -1,0 +1,11 @@
+items:
+  - name: MissileWarsX
+    tags:
+      - java
+      - minecraft
+    repoUrl: https://github.com/encodeous/MissileWarsX.git
+    demoUrl: https://github.com/encodeous/MissileWarsX.git
+    image: https://github.com/encodeous/MissileWarsX/raw/dev/assets/cover.png
+    content: |-
+      This is the pinnacle of minecraft gameplay.
+      Isn't it?
