@@ -134,7 +134,7 @@ items:
     content: |-
       A simple pong game written in Java using Swing. The game supports multiplayer over a local network, and has a simple AI for single player mode.
   - name: EmojiPad
-    weight: 8
+    weight: 7
     tags:
       - dotnet
       - wpf
@@ -174,4 +174,20 @@ items:
         icon: fa-box
         link: https://www.nuget.org/packages/Neutrino.Cli
     content: |-
-      Neutrino is a command line tool and library for performing fast full-text search. It uses an extended rolling hash algorithm to achieve O(n) while allowing advanced search features such as wildcards and file globbing. This is still a WIP project.
+      Neutrino is a command line tool and library for performing fast full-text search. It uses an extended rolling hash algorithm to achieve O(n) time complexity while allowing advanced search features such as wildcards and file globbing. This is still a WIP project.
+  - name: JourneyRoute
+    weight: 9
+    tags:
+      - java
+      - minecraft
+      - algorithms
+    image: $root/assets/portfolio/journeyroute.png
+    links:
+      - name: Source Code
+        icon: fa-code
+        link: https://github.com/encodeous/journeyroute.git
+      - name: Watch Demo
+        icon: fa-video
+        link: https://www.youtube.com/watch?v=d2jtADDBxpM
+    content: |-
+      JourneyRoute is a path-finding mod for Minecraft. With JourneyRoute, you will never get lost down a mineshaft! As you travel in a world, it will build a network of all the places you have been, and is able to find routes between locations. It uses the A* algorithm to efficiently search through its internal 3d graph of the world.
