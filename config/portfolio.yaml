@@ -78,3 +78,27 @@ items:
         link: https://www.youtube.com/watch?v=goahlUHhgWg
     content: |-
       WyRIM is a high-level wrapper UI for the vanilla Wynncraft item bank. It provides a much more user friendly interface by the original chest-based UI into a searchable, scrollable and sortable container.
+  - name: PaperTime
+    weight: 6
+    tags:
+      - java
+      - minecraft
+      - server-fork
+    links:
+      - name: Source Code
+        icon: fa-code
+        link: https://github.com/encodeous/PaperTime.git
+    content: |-
+      PaperTime is a specialized Paper fork that enables technical players to manipulate the game speed (TPS) using an in-game command. This was made long before Mojang added this feature to the native game.
+  - name: 4Plumbers
+    weight: 8
+    tags:
+      - web-design
+      - client
+      - astrojs
+    links:
+      - name: View Site
+        icon: fa-link
+        link: https://4plumbers.ca/
+    content: |-
+      Developed a client website for a plumbing company in the local area. The site was built in Astro, and hosted on Cloudflare.
