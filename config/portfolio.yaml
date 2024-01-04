@@ -30,4 +30,19 @@ items:
         icon: fa-box
         link: https://www.nuget.org/packages/hosts.net
     content: |-
-      A handy library to edit hosts files in .NET
+      A utility library for managing the hosts file on Windows, Linux and Mac.
+  - name: GitRCFS
+    weight: 7
+    tags:
+      - dotnet
+      - library
+      - git
+    links:
+      - name: Source Code
+        icon: fa-code
+        link: https://github.com/encodeous/gitrcfs.git
+      - name: Install Package
+        icon: fa-box
+        link: https://www.nuget.org/packages/GitRCFS
+    content: |-
+      GitRCFS offers a lightweight API to synchronize an application's configuration / data files with a remote git repository. The API is designed in a natural way for rapid prototyping.
