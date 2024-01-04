@@ -1,5 +1,6 @@
 items:
   - name: MissileWarsX
+    weight: 9
     tags:
       - java
       - minecraft
@@ -9,3 +10,12 @@ items:
     image: https://github.com/encodeous/MissileWarsX/raw/dev/assets/cover.png
     content: |-
       An open source implementation of the legendary MissileWars mini-game originally conceived by SethBling and Cubehamster. MwX is a performant plugin that uses FastAsyncWorldEdit and a plethora of Minecraft internal tricks to run the minigame without lag.
+  - name: hosts.net
+    weight: 7
+    tags:
+      - dotnet
+      - library
+    repoUrl: https://github.com/encodeous/hosts.net.git
+    packageUrl: https://www.nuget.org/packages/hosts.net
+    content: |-
+      A handy library to edit hosts files in .NET
