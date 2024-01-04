@@ -31,7 +31,7 @@ items:
         icon: fa-box
         link: https://www.nuget.org/packages/hosts.net
     content: |-
-      A utility library for managing the hosts file on Windows, Linux and Mac. As of writing, it has the following download count: <img alt="Nuget" src="https://img.shields.io/nuget/dt/hosts.net?style=flat&color=%23ffffff">
+      A utility library for managing the hosts file on Windows, Linux and Mac. It currently has the following download count: <img alt="Nuget" src="https://img.shields.io/nuget/dt/hosts.net?style=flat&color=%23ffffff">
   - name: GitRCFS
     weight: 7
     tags:
@@ -46,7 +46,7 @@ items:
         icon: fa-box
         link: https://www.nuget.org/packages/GitRCFS
     content: |-
-      GitRCFS offers a lightweight API to synchronize an application's configuration / data files with a remote git repository. The API is designed in a natural way for rapid prototyping.
+      GitRCFS offers a lightweight API to synchronize an application's configuration / data files with a remote git repository. The API is designed in a natural way for rapid prototyping. It currently has the following download count: <img alt="Nuget" src="https://img.shields.io/nuget/dt/GitRCFS?style=flat&color=%23ffffff">
   - name: This Website
     weight: 8
     tags:
