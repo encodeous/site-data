@@ -5,7 +5,7 @@
 #   $blog - blog path prefix
 items:
   - name: MissileWarsX
-    weight: 9
+    weight: 8
     tags:
       - java
       - minecraft
@@ -108,7 +108,7 @@ items:
     weight: 9
     tags:
       - dotnet
-      - chess-algorithms
+      - algorithms
       - library
       - cli
     links:
@@ -152,9 +152,26 @@ items:
       - java
       - minecraft
       - library
+      - algorithms
     links:
       - name: Source Code
         icon: fa-code
         link: https://github.com/encodeous/VirtualEdit.git
     content: |-
       VirtualEdit is an experimental library for Paper that allows developers to modify vast regions of the world (seen by the client) without causing lag. This is accomplished by using an internal 3d implicit segment tree and real-time packet manipulation. This library is used in MissileWarsX to hide entire regions of the world from the client.
+  - name: Neutrino
+    weight: 8
+    tags:
+      - dotnet
+      - cli
+      - algorithms
+      - library
+    links:
+      - name: Source Code
+        icon: fa-code
+        link: https://github.com/encodeous/Neutrino.git
+      - name: Install Package
+        icon: fa-box
+        link: https://www.nuget.org/packages/Neutrino.Cli
+    content: |-
+      Neutrino is a command line tool and library for performing fast full-text search. It uses an extended rolling hash algorithm to achieve O(n) while allowing advanced search features such as wildcards and file globbing. This is still a WIP project.
