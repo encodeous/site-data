@@ -146,3 +146,15 @@ items:
         link: https://github.com/encodeous/emojipad.git
     content: |-
       EmojiPad is a highly configurable emoji sticker pad. Its sleek UI is simple to use, and handles thousands of emojis with ease.
+  - name: VirtualEdit
+    weight: 8
+    tags:
+      - java
+      - minecraft
+      - library
+    links:
+      - name: Source Code
+        icon: fa-code
+        link: https://github.com/encodeous/VirtualEdit.git
+    content: |-
+      VirtualEdit is an experimental library for Paper that allows developers to modify vast regions of the world (seen by the client) without causing lag. This is accomplished by using an internal 3d implicit segment tree and real-time packet manipulation. This library is used in MissileWarsX to hide entire regions of the world from the client.
