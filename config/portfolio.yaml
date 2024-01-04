@@ -31,7 +31,7 @@ items:
         icon: fa-box
         link: https://www.nuget.org/packages/hosts.net
     content: |-
-      A utility library for managing the hosts file on Windows, Linux and Mac. As of writing, it has been installed <img alt="Nuget" src="https://img.shields.io/nuget/dt/hosts.net?style=flat&color=%23ffffff"> times.
+      A utility library for managing the hosts file on Windows, Linux and Mac. As of writing, it has the following download count: <img alt="Nuget" src="https://img.shields.io/nuget/dt/hosts.net?style=flat&color=%23ffffff">
   - name: GitRCFS
     weight: 7
     tags:
