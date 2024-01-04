@@ -1,3 +1,7 @@
+# Reference
+# ICONS: use Font Awesome (fa-code, fa-box) etc
+# VARIABLES: (Substituted by the front end)
+#   $root - root data path, with https:// prefix
 items:
   - name: MissileWarsX
     weight: 9
@@ -10,7 +14,7 @@ items:
       - name: Source Code
         icon: fa-code
         link: https://github.com/encodeous/MissileWarsX.git
-    image: https://github.com/encodeous/MissileWarsX/raw/dev/assets/cover.png
+    image: $root/assets/portfolio/missile-wars.png
     content: |-
       An open source implementation of the legendary MissileWars mini-game originally conceived by SethBling and Cubehamster. MwX is a performant plugin that uses FastAsyncWorldEdit and a plethora of Minecraft internal tricks to run the minigame without lag.
   - name: hosts.net
