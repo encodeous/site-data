@@ -1,7 +1,8 @@
 # Reference
 # ICONS: use Font Awesome (fa-code, fa-box) etc
 # VARIABLES: (Substituted by the front end)
-#   $root - root data path, with https:// prefix
+#   $root - root data path prefix, with https:// prefix
+#   $blog - blog path prefix
 items:
   - name: MissileWarsX
     weight: 9
@@ -46,3 +47,34 @@ items:
         link: https://www.nuget.org/packages/GitRCFS
     content: |-
       GitRCFS offers a lightweight API to synchronize an application's configuration / data files with a remote git repository. The API is designed in a natural way for rapid prototyping.
+  - name: This Website
+    weight: 8
+    tags:
+      - dotnet
+      - svelte
+      - kubernetes
+    links:
+      - name: View API Source
+        icon: fa-code
+        link: https://gitlab.encodeous.ca/rohan/terrace
+      - name: View Frontend Source
+        icon: fa-code
+        link: https://github.com/encodeous/spearfish
+    content: |-
+      This website is the culmination of many technologies, and is a great example of how to use the GitRCFS library. The webpage you are reading right now is generated live from <a href="https://github.com/encodeous/site-data">this repo</a>. For more info, see <a href="$blog/spearfish">this blog post</a>.
+  - name: WyRIM
+    weight: 6
+    tags:
+      - java
+      - minecraft
+      - fabric-modding
+    image: $root/assets/portfolio/wyrim.png
+    links:
+      - name: Source Code
+        icon: fa-code
+        link: https://github.com/encodeous/WyRIM.git
+      - name: Watch Demo
+        icon: fa-video
+        link: https://www.youtube.com/watch?v=goahlUHhgWg
+    content: |-
+      WyRIM is a high-level wrapper UI for the vanilla Wynncraft item bank. It provides a much more user friendly interface by the original chest-based UI into a searchable, scrollable and sortable container.
