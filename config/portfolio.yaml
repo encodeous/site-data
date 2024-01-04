@@ -61,7 +61,7 @@ items:
         icon: fa-code
         link: https://github.com/encodeous/spearfish
     content: |-
-      This website is the culmination of many technologies, and is a great example of how to use the GitRCFS library. The webpage you are reading right now is generated live from <a href="https://github.com/encodeous/site-data">this repo</a>. For more info, see <a href="$blog/spearfish">this blog post</a>.
+      This website is the culmination of many technologies, and is a great example of how to use the GitRCFS library. The webpage you are reading right now is generated live from <a class="tangerine" href="https://github.com/encodeous/site-data">this repo</a>. For more info, see <a class="tangerine" href="$blog/spearfish">this blog post</a>.
   - name: WyRIM
     weight: 6
     tags:
