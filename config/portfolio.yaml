@@ -102,3 +102,18 @@ items:
         link: https://4plumbers.ca/
     content: |-
       Developed a client website for a plumbing company in the local area. The site was built in Astro, and hosted on Cloudflare.
+  - name: Goldfish
+    weight: 9
+    tags:
+      - chess-algorithms
+      - dotnet
+      - chess-framework
+    links:
+      - name: Source Code
+        icon: fa-code
+        link: https://github.com/encodeous/goldfish.git
+      - name: API Docs
+        icon: fa-file
+        link: https://encodeous.github.io/goldfish/
+    content: |-
+      Goldfish is a complete Chess Engine and framework for chess written entirely in .NET. The engine uses techniques such as Alpha-Beta pruning, Transposition Tables, Iterative Deepening, and concurrent/parallel search to achieve a high level of performance. The engine is relatively strong, and can beat most casual players at an Elo of around 1600.
