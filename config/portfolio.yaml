@@ -3,9 +3,9 @@ items:
     tags:
       - java
       - minecraft
+      - plugin-development
+      - spigot
     repoUrl: https://github.com/encodeous/MissileWarsX.git
-    demoUrl: https://github.com/encodeous/MissileWarsX.git
     image: https://github.com/encodeous/MissileWarsX/raw/dev/assets/cover.png
     content: |-
-      This is the pinnacle of minecraft gameplay.
-      Isn't it?
+      An open source implementation of the legendary MissileWars mini-game originally conceived by SethBling and Cubehamster. MwX is a performant plugin that uses FastAsyncWorldEdit and a plethora of Minecraft internal tricks to run the minigame without lag.
