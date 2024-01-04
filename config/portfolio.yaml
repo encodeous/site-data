@@ -51,6 +51,7 @@ items:
     weight: 8
     tags:
       - dotnet
+      - javascript
       - svelte
       - kubernetes
     links:
@@ -93,6 +94,7 @@ items:
   - name: 4Plumbers
     weight: 8
     tags:
+      - javascript
       - web-design
       - client
       - astrojs
@@ -105,9 +107,10 @@ items:
   - name: Goldfish
     weight: 9
     tags:
-      - chess-algorithms
       - dotnet
-      - chess-framework
+      - chess-algorithms
+      - library
+      - cli
     links:
       - name: Source Code
         icon: fa-code
@@ -117,3 +120,29 @@ items:
         link: https://encodeous.github.io/goldfish/
     content: |-
       Goldfish is a complete Chess Engine and framework for chess written entirely in .NET. The engine uses techniques such as Alpha-Beta pruning, Transposition Tables, Iterative Deepening, and concurrent/parallel search to achieve a high level of performance. The engine is relatively strong, and can beat most casual players at an Elo of around 1600.
+  - name: A Very Simple Pong Game
+    weight: 2
+    tags:
+      - java
+      - swing
+      - networking
+      - game
+    links:
+      - name: Source Code
+        icon: fa-code
+        link: https://github.com/encodeous/a-very-simple-pong-game.git
+    content: |-
+      A simple pong game written in Java using Swing. The game supports multiplayer over a local network, and has a simple AI for single player mode.
+  - name: EmojiPad
+    weight: 8
+    tags:
+      - dotnet
+      - wpf
+      - windows
+    image: $root/assets/portfolio/emojipad.png
+    links:
+      - name: Source Code
+        icon: fa-code
+        link: https://github.com/encodeous/emojipad.git
+    content: |-
+      EmojiPad is a highly configurable emoji sticker pad. Its sleek UI is simple to use, and handles thousands of emojis with ease.
