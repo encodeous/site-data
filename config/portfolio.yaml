@@ -191,3 +191,15 @@ items:
         link: https://www.youtube.com/watch?v=d2jtADDBxpM
     content: |-
       JourneyRoute is a path-finding mod for Minecraft. With JourneyRoute, you will never get lost down a mineshaft! As you travel in a world, it will build a network of all the places you have been, and is able to find routes between locations. It uses the A* algorithm to efficiently search through its internal 3d graph of the world.
+  - name: EtfDotNet
+    weight: 9
+    tags:
+      - dotnet
+      - erlang-term-format
+      - library
+    links:
+      - name: Source Code
+        icon: fa-code
+        link: https://github.com/EpicPix/EtfDotNet.git
+    content: |-
+      EtfDotNet is a high performance library for serializing and deserializing Erlang Term Format (ETF). It is able to deserialize most data in-place without having to copy it into new buffers.
