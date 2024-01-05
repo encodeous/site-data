@@ -243,3 +243,84 @@ items:
         link: https://www.nuget.org/packages/Encodeous.clockwork/
     content: |-
       Clockwork is a declarative & fluent task scheduling library for .NET. It allows you to schedule tasks to run at specific times, or at regular intervals. It also supports running tasks in parallel, and is built on top of the Task Parallel Library.
+  - name: Tetrix
+    weight: 4
+    tags:
+      - cpp
+      - arduino
+      - hardware
+    links:
+      - name: Source Code
+        icon: fa-code
+        link: https://github.com/encodeous/Tetrix.git
+    content: |-
+      Tetrix is a tiny implementation of Tetris on an Arduino microcontroller. It uses a 8x8 LED matrix to display the game, and implements all of the core components of Tetris.
+  - name: DirtyProxy
+    weight: 4
+    tags:
+      - dotnet
+      - scraping
+    links:
+      - name: Source Code
+        icon: fa-code
+        link: https://github.com/encodeous/dirtyproxy.git
+    content: |-
+      DirtyProxy is a quick and easy proxy scraper that scrapes proxies from a list of websites. It is able to scrape HTTP, HTTPS, and SOCKS proxies, and can asynchronously test them for connectivity.
+  - name: Horizon
+    weight: 10
+    tags:
+      - dotnet
+      - tunnel
+      - cli
+    links:
+      - name: Source Code
+        icon: fa-code
+        link: https://github.com/encodeous/horizon.git
+    content: |-
+      Horizon is a high performance TCP over WebSockets tunnel that allows services to be accessed behind a HTTP server. It is able to act as a proxy or reverse proxy, and supports high-throughput scenarios with low latency. Horizon was tested to have a maximum throughput of 5 Gbps on an i7 machine.
+  - name: RoboMatch
+    weight: 9
+    tags:
+      - cpp
+      - matching-game
+      - arduino
+    image: $root/assets/portfolio/robomatch.png
+    links:
+      - name: Source Code
+        icon: fa-code
+        link: https://github.com/encodeous/robomatch.git
+      - name: Watch Demo
+        icon: fa-video
+        link: https://www.youtube.com/watch?v=cjLqTAt5Vvc
+      - name: Play Online
+        icon: fa-gamepad
+        link: https://wokwi.com/projects/316891890985206336
+    content: |-
+      RoboMatch is an implementation of the classic Pair Matching Memory Game on an Arduino microcontroller. It uses a text-based LCD, and an intuitive interface to allow users to play the game.
+  - name: WStream
+    weight: 10
+    tags:
+      - dotnet
+      - websocket
+      - library
+    links:
+      - name: Source Code
+        icon: fa-code
+        link: https://github.com/encodeous/clockwork.git
+      - name: Install Package
+        icon: fa-box
+        link: https://www.nuget.org/packages/wstream/
+    content: |-
+      High performance WebSocket stream wrapper for .NET. WStream can reach over 10+ Gbps throughput, and implements an asymmetrical encryption scheme. It currently has the following download count: <img alt="Nuget" src="https://img.shields.io/nuget/dt/wstream?style=flat&color=%23ffffff">
+  - name: shShortener
+    weight: 5
+    tags:
+      - dotnet
+      - url-shortener
+      - blazor
+    links:
+      - name: Source Code
+        icon: fa-code
+        link: https://github.com/encodeous/shsh.git
+    content: |-
+      shShortener is a simple URL shortener written in Blazor. It uses a SQLite database to store the URLs, and is able to generate random and custom urls.
