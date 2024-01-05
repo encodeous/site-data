@@ -78,7 +78,7 @@ items:
         icon: fa-video
         link: https://www.youtube.com/watch?v=goahlUHhgWg
     content: |-
-      WyRIM is a high-level wrapper UI for the vanilla Wynncraft item bank. It provides a much more user friendly interface by the original chest-based UI into a searchable, scrollable and sortable container.
+      WyRIM is a high-level wrapper UI for the vanilla Wynncraft item bank. It provides a much more user friendly interface by turning the original chest-based UI into a searchable, scrollable and sortable container.
   - name: PaperTime
     weight: 6
     tags:
@@ -203,3 +203,16 @@ items:
         link: https://github.com/EpicPix/EtfDotNet.git
     content: |-
       EtfDotNet is a high performance library for serializing and deserializing Erlang Term Format (ETF). It is able to deserialize most data in-place without having to copy it into new buffers.
+  - name: Offline Judge
+    weight: 9
+    image: $root/assets/portfolio/offlinejudge.png
+    tags:
+      - dotnet
+      - cli
+      - competitive-programming
+    links:
+      - name: Source Code
+        icon: fa-code
+        link: https://github.com/encodeous/offlinejudge.git
+    content: |-
+      Offline Judge is a command line tool for testing competitive programming solutions. It is able to run solutions against a reference solution, and compare the output. It runs solutions in parallel, and is able to terminate solutions that exceed the time or memory limit.
