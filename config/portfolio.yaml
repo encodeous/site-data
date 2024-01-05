@@ -333,6 +333,6 @@ items:
     links:
       - name: Source Code
         icon: fa-code
-        link: https://github.com/andytubeee/toyota-prius-detection.git
+        link: https://github.com/encodeous/tmmc-2023
     content: |-
       Our team won the Toyota Innovation Challenge in 2023. I lead the development of a machine learning model by fine-tuning the YOLOv8 model to detect industrial sticker applications on the Toyota manufacturing line. The model validates quality of application (alignment, position, coverage etc) in real-time, and is able to work on low-contrast situations (i.e black stickers on black paint.)
