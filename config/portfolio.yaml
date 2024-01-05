@@ -228,3 +228,18 @@ items:
         link: https://github.com/encodeous/musii.git
     content: |-
       Musii is a self-hosted Discord bot that allows users to play music in Discord voice channels. It is able to play music from YouTube, SoundCloud, and Spotify (by searching for the song on YouTube). It also has a built-in queue system, and supports playlists, bass boost, sharing playlists, and more.
+  - name: Clockwork
+    weight: 8
+    tags:
+      - dotnet
+      - task-scheduling
+      - library
+    links:
+      - name: Source Code
+        icon: fa-code
+        link: https://github.com/encodeous/clockwork.git
+      - name: Install Package
+        icon: fa-box
+        link: https://www.nuget.org/packages/Encodeous.clockwork/
+    content: |-
+      Clockwork is a declarative & fluent task scheduling library for .NET. It allows you to schedule tasks to run at specific times, or at regular intervals. It also supports running tasks in parallel, and is built on top of the Task Parallel Library.
