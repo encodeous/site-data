@@ -289,10 +289,10 @@ items:
       - name: Source Code
         icon: fa-code
         link: https://github.com/encodeous/robomatch.git
-      - name: Watch Demo
+      - name: Demo
         icon: fa-video
         link: https://www.youtube.com/watch?v=cjLqTAt5Vvc
-      - name: Play Online
+      - name: Play
         icon: fa-gamepad
         link: https://wokwi.com/projects/316891890985206336
     content: |-
