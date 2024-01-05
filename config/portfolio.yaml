@@ -216,3 +216,15 @@ items:
         link: https://github.com/encodeous/offlinejudge.git
     content: |-
       Offline Judge is a command line tool for testing competitive programming solutions. It is able to run solutions against a reference solution, and compare the output. It runs solutions in parallel, and is able to terminate solutions that exceed the time or memory limit.
+  - name: Musii
+    weight: 7
+    tags:
+      - dotnet
+      - discord-bot
+      - self-hosted
+    links:
+      - name: Learn More
+        icon: fa-plus
+        link: https://github.com/encodeous/musii.git
+    content: |-
+      Musii is a self-hosted Discord bot that allows users to play music in Discord voice channels. It is able to play music from YouTube, SoundCloud, and Spotify (by searching for the song on YouTube). It also has a built-in queue system, and supports playlists, bass boost, sharing playlists, and more.
