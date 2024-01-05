@@ -324,7 +324,7 @@ items:
         link: https://github.com/encodeous/shsh.git
     content: |-
       shShortener is a simple URL shortener written in Blazor. It uses a SQLite database to store the URLs, and is able to generate random and custom urls.
-  - name: Toyota Innovation Challenge
+  - name: Toyota Canada
     weight: 10
     tags:
       - python
