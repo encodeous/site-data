@@ -306,7 +306,7 @@ items:
     links:
       - name: Source Code
         icon: fa-code
-        link: https://github.com/encodeous/clockwork.git
+        link: https://github.com/encodeous/wstream.git
       - name: Install Package
         icon: fa-box
         link: https://www.nuget.org/packages/wstream/
