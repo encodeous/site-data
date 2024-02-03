@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "DIY CMS and Personal Website on Kubernetes: An Epic Saga of Overengineering and Comic Overkill"
+title: "Terrace and Spearfish, a Personal Website on Kubernetes: An Epic Saga of Overkill Engineering"
 permalink: overkill-website
-listed: false
+listed: true
 sticky: 0
 date: 2/3/2024
 meta:
