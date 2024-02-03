@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A placeholder blog
-url: foo
+permalink: foo
 listed: true
 date: 2/2/2024
 ---
